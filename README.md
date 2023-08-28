@@ -7,7 +7,7 @@ Lavoro is a worker discovery MERN app designed with ease of use in mind. The app
 1. Clone the project
 
 ```bash
-  git clone https://github.com/furqanulaalam/worker-discovery-mern-app.git
+  git clone https://github.com/yafis630/worker-discovery-mern-app.git
 ```
 
 2. Go to the project directory
