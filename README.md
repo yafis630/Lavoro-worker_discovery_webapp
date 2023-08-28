@@ -13,7 +13,7 @@ Lavoro is a worker discovery MERN app designed with ease of use in mind. The app
 2. Go to the project directory
 
 ```bash
-  cd worker-discovery-mern-app
+  cd Lavoro-worker_discovery_webapp
 ```
 
 3. Install dependencies
