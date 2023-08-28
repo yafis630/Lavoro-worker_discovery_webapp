@@ -1,0 +1,149 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  background-image: url("../public/back3.jpg");
+  background-size: cover;
+}
+
+.button-container {
+  margin: 80px;
+}
+
+.buttons-container {
+  text-align: center;
+}
+
+.category-holder {
+  background-color: black;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+}
+
+.category-list {
+  list-style-type: none;
+}
+
+h3.ui.header.main-title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  background-color: #404258;
+  margin: 0 auto;
+}
+
+h5.ui.header.main-title {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: monospace;
+  background-color: #404258;
+  margin: 0 auto;
+}
+
+.header-holder {
+  background-color: black;
+  padding: 12px;
+}
+
+.main.button.ui {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+.logout-button {
+  margin: 0px;
+  padding: 5px;
+  border: none;
+  border-radius: 0px;
+  font-size: 14px;
+}
+.logout-button:hover {
+  cursor: pointer;
+}
+
+.main-text-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text-holder.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+
+  width: 100%;
+}
+
+.name-heading {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.ui.header.main-title {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.ui.inverted.compact.segment {
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.worker-details {
+  margin: auto;
+  margin-bottom: 20px;
+  color: white;
+  list-style: none;
+  width: 600px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.worker-picture-list {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.worker-type {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+@media only screen and (max-width: 500px) {
+  .category-holder {
+    height: 80px;
+
+    width: 200px;
+  }
+}
